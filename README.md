@@ -1,10 +1,10 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [PookieCats Extension] 🎯
+# PookieCats Extension 🎯
 
 ## Basic Details
 
-### Team Name: [Fsociety]
+### Team Name: Fsociety
 
 ### Team Members
 
@@ -34,20 +34,23 @@ What about anger?? It will hate you for seeing frustrating content. And explode 
 
 ## Technical Details
 
+- This project is proudly built upon the amazing work done by [@adryd325](https://github.com/adryd325) and their project, [oneko.js](https://github.com/adryd325/oneko.js/). Huge thanks for bringing these delightful cat antics to life in the browser! 😸
+- We modified the oneko.js to our use case and made it to work on the youtube videos by listening to the clicks on the youtube like button. Every click will have an eventlistener that invokes the pookie to go to the button instead of the cursor created by the original author.
+- We used the memes as another js by reading the twitter posts accordingly and find the mood of its contents. The contents will get tagged as happy sad anger or confused which will trigger the cat memes and animation to the twitter post.
+
 ### Technologies/Components Used
 
 For Software:
 
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Javascript
+- Chrome Extension
+- Oneko JS
 
 For Hardware:
 
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Works on All Chrome and Chromium based browsers
+- All OS
+- No extra installation required
 
 ### Implementation
 
@@ -55,15 +58,12 @@ For Software:
 
 # Installation
 
-[commands]
+- Open chrome://extensions and enable developer mode. On the top left there will be an unpack button and unpack the extension. by opening it onto the browser.
+- Then open the corresponding websites
 
 # Run
 
-[commands]
-
-### Project Documentation
-
-For Software:
+- Just open youtube.com or x.com
 
 # Screenshots (Add at least 3)
 
