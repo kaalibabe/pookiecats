@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "PookieCats",
+  "version": "1.0",
+  "description": "An Useless Project That Brings Your Favorite Cats To Your Browser",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["storage", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["oneko.js/oneko.js"]
+    },
+    {
+      "matches": ["*://*.x.com/*"],
+      "js": ["memeCats/catmemes.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "oneko.js/oneko.gif",
+        "oneko.js/oneko.js",
+        "memeCats/catmemes.js",
+        "memeCats/memes/confused.gif",
+        "memeCats/memes/happy.gif",
+        "memeCats/memes/sad.gif",
+        "memeCats/memes/angry.gif",
+        "memeCats/memes/crying.mpga",
+        "memeCats/memes/happy.mpga",
+        "memeCats/memes/bomb.mpga",
+        "memeCats/memes/huh.mpga"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
