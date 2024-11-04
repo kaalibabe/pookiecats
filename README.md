@@ -76,48 +76,16 @@ _Add caption explaining what this shows_
 ![Screenshot3](Add screenshot 3 here with proper name)
 _Add caption explaining what this shows_
 
-# Diagrams
-
-![Workflow](Add your workflow/architecture diagram here)
-_Add caption explaining your workflow_
-
-For Hardware:
-
-# Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-_Add caption explaining connections_
-
-![Schematic](Add your schematic diagram here)
-_Add caption explaining the schematic_
-
-# Build Photos
-
-![Components](Add photo of your components here)
-_List out all components shown_
-
-![Build](Add photos of build process here)
-_Explain the build steps_
-
-![Final](Add photo of final product here)
-_Explain the final build_
 
 ### Project Demo
 
-# Video
 
-[Add your demo video link here]
-_Explain what the video demonstrates_
 
-# Additional Demos
-
-[Add any extra demo materials/links]
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Adithi Asok: Coding
+- Athul Praksh NJ: Helped designing and finding memes
 
 ---
 
